@@ -1,0 +1,90 @@
+
+.head-container{
+    display: flex;
+    flex-direction: column;
+}
+.head-img{
+    width: 80px;
+}
+.head-container .text-sb{
+    color: green;
+    font-weight: 500;
+    font-size: 32px;
+}
+.head-container .text-bold{
+    color: green;
+    font-weight: bold;
+    font-size: 32px;
+}
+.form-container{
+    font-weight: 300;
+    font-size: 24px;
+}
+.input-container {
+    width:300px;
+    background: rgb(230, 227, 227);
+    border: none;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+    
+}
+.form-container .input-pass{
+    background-color: transparent;
+    height: 50px;
+    width: 70%;
+    border: none;
+}
+.form-container .img-eye{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+.form-container .forget-pass{
+    color: rgb(16, 153, 16);
+    font-weight: 700;
+    text-align: end;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button-container button{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 250px;
+    padding: 10px;
+    border-radius: 200px;
+    border: none;
+    margin: auto;
+}
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.text-container{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons-container .button-style{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    background: rgb(201, 196, 196);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elektra-img, .img-baz{
+    width: 30px;
+}
